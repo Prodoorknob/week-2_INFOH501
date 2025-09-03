@@ -30,5 +30,5 @@ def sort_names(names, scores):
     sorted_data=[]
     for i in sorted_scores:
         name=[k for k,v in data.items() if v==i]
-        sorted_data.append((name[0],i))
+        sorted_data.append(name[0])
     return sorted_data
